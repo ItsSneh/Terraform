@@ -10,3 +10,7 @@ terraform {
     encrypt        = true
   }
 }
+```
+Reinitialize with remote backend
+```sh
+terraform init
