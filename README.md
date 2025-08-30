@@ -23,3 +23,11 @@ terraform apply -auto-approve  # Applies without manual confirmation
 terraform destroy  # Destroys all managed resources
 
 terraform destroy -auto-approve  # destroys without manual confirmation
+
+terraform workspace new dev
+
+terraform workspace new prod
+
+terraform workspace select prod
+
+terraform workspace list
