@@ -17,3 +17,13 @@ variable "instance_name" {
   description = "Name of the EC2 Instance"
   type = string
 }
+
+variable "subnet_id" {
+  description = "Subnet ID for EC2 Instance"
+  type = string
+}
+
+variable "vpc_id" {
+  description = "VPC ID for EC2 sg"
+  type = string
+}
